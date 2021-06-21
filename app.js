@@ -48,7 +48,7 @@ favoriteMoviefun();
 
 
 
-let moviesOneweek = prompt("How many movies do you watch in one week?");
+let moviesOneweek = Number(prompt("How many movies do you watch in one week?")) ;
 console.log(moviesOneweek);
 
 let moviesinweek = 3;
